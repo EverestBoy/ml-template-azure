@@ -5,8 +5,10 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
     # paths:
     #   - 'code/*'
+
 
 jobs:
   train:
