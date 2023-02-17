@@ -106,6 +106,7 @@ def main(args):
     print('F1-Score of SVM classifier on test set: {:.2f}'.format(f1))
     run.log('f1-score', f1)
     
+    
     # create a confusion matrix
     labels = ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
     labels_numbers = [0, 1, 2]
